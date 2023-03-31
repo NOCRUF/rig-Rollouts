@@ -6,7 +6,7 @@ set /p input=
 if %input%== "y" goto main
 if %input%== "n" exit;
 :main
-cp "XMRminer.bat" "%USERPROFILE%"
+copy "XMRminer.bat" "%USERPROFILE%"
 del "XMRminer.bat"
 echo File XMRminer.bat made
 echo deleting setup.bat
